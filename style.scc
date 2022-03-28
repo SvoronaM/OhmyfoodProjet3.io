@@ -1,0 +1,8 @@
+body
+{
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 2000px;
+    width: 100%;
+}
