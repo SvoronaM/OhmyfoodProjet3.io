@@ -1,34 +1,4 @@
 h1
 {
     font-family: 'Shrikhand', cursive;
-    width: 50%;
-    margin: auto;
-    text-align: center;
-    padding-left: 2%;
-    padding-right: 2%;
-    margin-bottom: 20px;
-}
-h4
-{
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.01em;
-    width: 50%;
-    margin: auto;
-    text-align: center;
-}
-h2
-{
-    font-family: 'Roboto', sans-serif;
-    font-size: 2em;
-    font-weight: 800;
-    padding-left: 25%;
-    padding-right: 25%;
-}
-h3
-{
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.5em;
-    font-weight: 300;
-    padding-left: 25%;
-    padding-right: 25%;
 }
