@@ -1,4 +1,36 @@
+body
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 h1
 {
     font-family: 'Shrikhand', cursive;
+    justify-content: space-between;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+h4
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.01em;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+h2
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+    font-weight: 800;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+h3
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    font-weight: 300;
+    padding-left: 25%;
+    padding-right: 25%;
 }
