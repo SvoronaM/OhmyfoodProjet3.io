@@ -1,34 +1,64 @@
 h1
 {
     font-family: 'Shrikhand', cursive;
-    width: 50%;
-    margin: auto;
     text-align: center;
     padding-left: 2%;
     padding-right: 2%;
-    margin-bottom: 20px;
+    margin: auto auto 20px;
 }
 h4
 {
     font-family: 'Roboto', sans-serif;
     font-size: 1.01em;
-    width: 50%;
-    margin: auto;
     text-align: center;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin: auto auto 20px;
 }
 h2
 {
     font-family: 'Roboto', sans-serif;
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: 800;
-    padding-left: 25%;
-    padding-right: 25%;
+    text-align: center;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin: auto auto 20px;
 }
-h3
+p
 {
     font-family: 'Roboto', sans-serif;
-    font-size: 1.5em;
+    font-size: 1.1em;
     font-weight: 300;
-    padding-left: 25%;
-    padding-right: 25%;
+    width: 90%;
+    text-align: center;
+    margin: auto auto 20px;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.styled
+{
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1.1em;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 50px;
+    background-color: #9356DC;
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+    inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.styled:hover {
+    background-color: #FF79DA;
+}
+
+.styled:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+    inset 2px 2px 3px rgba(0, 0, 0, .6);
 }
