@@ -51,27 +51,21 @@ section
 }
 h2
 {
-    padding-left: 10%;
+    padding-left: 5%;
 }
 .fa-solid
-{
-    line-height: 4;
-    padding-left: 30%;
-}
-.fa-circle-1
-{
-    padding-left: 0;
-}
-.function, .fa-solid
+{}
+.function
 {
     display: flex;
     flex-direction: column;
     font-family: 'Roboto', sans-serif;
-    text-align: left;
+    text-align: center;
+    width: 90%;
     margin: auto auto 30px;
     border: 0;
     line-height: 4;
-    padding: 0 60px;
+    padding: 0  20px;
     font-size: 1.1em;
     color: black;
     border-radius: 20px;
