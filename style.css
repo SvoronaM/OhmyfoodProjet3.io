@@ -80,3 +80,10 @@
         box-shadow: 12px 12px 7px rgba(203, 203, 203, 0.6);
         background-color: rgba(203, 203, 203, 0.2);
     }
+    img
+    {
+        width: 300px;
+        height: 200px;
+        padding: 5% 5%;
+        margin: auto auto 30px;
+    }
