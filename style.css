@@ -78,13 +78,16 @@
     }
     article
     {
-        margin: auto auto 30px;
         background-color: #f1f1f1;
     }
     h3
     {
         margin: 0;
-        text-decoration:none;
+        padding-left: 2%;
+    }
+    a
+    {
+        padding-bottom: -10px;
     }
     img
     {
