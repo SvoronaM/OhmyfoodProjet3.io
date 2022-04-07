@@ -1,23 +1,27 @@
     body
     {
         font-family: 'Roboto', sans-serif;
+        margin-left: 2%;
     }
     header
     {
         text-align: center;
-        margin: auto auto 20px;
+        background-color: #efefef;
     }
     h1
     {
         font-family: 'Shrikhand', cursive;
         padding-left: 2%;
         padding-right: 2%;
+        background-color: #ffffff;
+        margin: 0;
     }
     h4
     {
         font-size: 1.01em;
-        padding-left: 2%;
-        padding-right: 2%;
+        padding: 4%;
+        margin: 0;
+        background-color: #d2d2d2;
     }
 
     h2
@@ -46,7 +50,8 @@
     }
      section
     {
-        margin-top: 40px;
+         width: 350px;
+         margin-top: 40px;
     }
     .fa-solid
     {
@@ -80,6 +85,7 @@
     {
         display: flex;
         flex-direction: column;
+        width: 350px;
         background-color: #f1f1f1;
         justify-content: center;
     }
@@ -93,13 +99,14 @@
         height: 200px;
         border-top-left-radius: 35px;
         border-top-right-radius: 35px;
+        padding-bottom: -1%;
         margin: 0;
     }
     #conteneur
     {
         display: flex;
         justify-content: space-between;
-        width: 315px;
+        width: 320px;
         height: 60px;
         background-color: #ffffff;
         border-bottom-right-radius: 35px;
