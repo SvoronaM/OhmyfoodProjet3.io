@@ -1,7 +1,7 @@
     body
     {
         font-family: 'Roboto', sans-serif;
-        margin-left: 2%;
+        margin-left: 4%;
         text-align: center;
     }
     h1
@@ -20,10 +20,8 @@
     {
         font-size: 1.01em;
         padding: 4%;
-        margin: 0;
         background-color: #d2d2d2;
     }
-
     h2
     {
         font-size: 1.5em;
@@ -40,7 +38,6 @@
     .styled
     {
         display: block;
-        margin: auto;
         width: 250px;
         line-height: 3;
         font-size: 1.1em;
@@ -50,8 +47,10 @@
     }
      section
     {
-         width: 350px;
+         width: 250px;
          margin-top: 40px;
+         text-align: left;
+         margin-left: 5%;
     }
     .fa-solid
     {
@@ -68,7 +67,7 @@
     button
     {
         align-items: flex-start;
-        width: 90%;
+        width: 350px;
         margin: auto auto 30px;
         border: 0;
         line-height: 4;
@@ -88,17 +87,17 @@
         width: 350px;
         background-color: #f1f1f1;
         justify-content: center;
+        text-align: left;
+        padding-left: 15px;
+        padding-right: 15px;
     }
-    a
-    {
-        padding-bottom: -10px;
-    }
+
     img
     {
         width: 350px;
         height: 200px;
-        border-top-left-radius: 35px;
-        border-top-right-radius: 35px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
         padding-bottom: -1%;
         margin: 0;
     }
@@ -106,11 +105,11 @@
     {
         display: flex;
         justify-content: space-between;
-        width: 320px;
+        width: 322px;
         height: 60px;
         background-color: #ffffff;
-        border-bottom-right-radius: 35px;
-        border-bottom-left-radius: 35px;
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 20px;
         padding-left: 4%;
         padding-right: 4%;
         margin-bottom: 4%;
