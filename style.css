@@ -1,7 +1,7 @@
     body
     {
         font-family: 'Roboto', sans-serif;
-        margin-left: 4%;
+        margin-left: 5px;
         text-align: center;
     }
     h1
@@ -12,10 +12,11 @@
         margin-top: 10%;
         margin-bottom: 4%;
     }
-    header
+    header, header.h2
     {
         background-color: #e7e7e7;
         padding-bottom: 20px;
+        text-align: center;
     }
     h4
     {
@@ -36,12 +37,17 @@
         padding-left: 2%;
         padding-right: 2%;
     }
-     section
+    h2
     {
-         width: 350px;
-         margin-top: 40px;
-         text-align: left;
-         margin-left: 10px;
+        padding-left: 5px;
+        text-align: left;
+    }
+    section
+    {
+        width: 350px;
+        margin-top: 40px;
+        text-align: left;
+        margin-left: 10px;
     }
     .styled
     {
@@ -59,10 +65,6 @@
         line-height: 1;
         padding-left: 30px;
         padding-right: 30px;
-    }
-    h2
-    {
-        padding-left: 5%;
     }
     .function
     {
@@ -131,4 +133,11 @@
         font-size: 1.1em;
         margin: 0;
         font-weight: 200;
+    }
+@media screen and (min-width: 760px)
+    {
+    section
+    {
+      display: flex;
+    }
     }
