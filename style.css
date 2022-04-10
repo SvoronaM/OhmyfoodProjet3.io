@@ -44,7 +44,8 @@
     }
     article
     {
-        display: block;
+        display: flex;
+        flex-direction: column;
         width: 350px;
         margin-top: 20px;
         text-align: left;
@@ -139,13 +140,11 @@
     {
     article
     {
-        display: flex;
-        flex-direction: row;
+        flex-direction: unset;
+        flex-wrap: wrap;
         justify-content: center;
+        width: 760px;
         align-items: center;
-    }
-    .deguster
-    {
-        align-self: flex-end;
+        margin-right: 10px;
     }
     }
