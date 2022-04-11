@@ -26,11 +26,9 @@ img
 section
 {
     text-align: left;
-    background-color: #dbdbdb;
+    background-color: #ececec;
 }
-#conteneur, #conteneur2, #conteneur3,
-#conteneur4, #conteneur5, #conteneur6,
-#conteneur7, #conteneur8, #conteneur9
+.conteneur
 {
     width: 350px;
     font-size: 1.1em;
@@ -40,7 +38,7 @@ section
     color: black;
     margin-left: 2%;
     margin-top: 5px;
-    margin-bottom: 5px;
+    margin-bottom: 12px;
     border-radius: 10px;
     box-shadow: #7f7f7f;
     background-color: #ffffff;
