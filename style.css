@@ -88,6 +88,7 @@
     {
         text-decoration: none;
         margin: 0.5%;
+        color: #000000;
     }
     section {
         display: flex;
@@ -98,6 +99,37 @@
         text-align: left;
         padding-left: 15px;
         padding-right: 15px;
+    }
+    .nouveau
+    {
+        text-align: center;
+        position: relative;
+        width: 80px;
+        height: 29px;
+        top: 44px;
+        left: 73%;
+        background-color: #99E2D0;
+        color: #00957a;
+        line-height: 2;
+        font-weight: 600;
+        font-size: 0.9em;
+        border-radius: 2px;
+    }
+    .carte-restau
+    {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .legend
+    {
+        display: flex;
+        justify-content: space-between;
+    }
+    .text
+    {
+        display: flex;
+        flex-direction: column;
     }
     h3#restaurant
     {
