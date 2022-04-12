@@ -1,7 +1,6 @@
 body
 {
     font-family: 'Roboto', sans-serif;
-    margin-left: 5px;
     text-align: center;
 }
 a
@@ -57,11 +56,16 @@ h5
     height: 30px;
     padding-left: 5px;
     align-items: center;
+    background-color: #ffffff;
 }
 .element:nth-child(2)
 {
     justify-content: space-between;
     margin-right: 4%;
+}
+button
+{
+margin: auto;
 }
 .styled
 {
