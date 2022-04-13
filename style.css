@@ -112,6 +112,13 @@
     {
         margin-bottom: 13px;
     }
+    img
+    {
+        width: 350px;
+        height: 190px;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
     .legend
     {
         display: flex;
@@ -119,6 +126,8 @@
         background-color: #ffffff;
         border-bottom-right-radius: 20px;
         border-bottom-left-radius: 20px;
+        position: relative;
+        top: -3px;
     }
     .text
     {
@@ -129,19 +138,13 @@
     div.coeur
     {
         padding-top: 15px;
-        padding-right: 15px;
+        padding-right: 28px;
+        font-size: 1.5em;
     }
     h3#restaurant
     {
         background-color: #f1f1f1;
-         margin-bottom: 0;
-    }
-    img
-    {
-        width: 350px;
-        height: 190px;
-        border-top-left-radius: 20px;
-        border-top-right-radius: 20px;
+        margin-bottom: 0;
     }
     #conteneur, #conteneur1, #conteneur2, #conteneur3
     {
