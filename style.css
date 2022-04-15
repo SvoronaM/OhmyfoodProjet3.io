@@ -124,6 +124,8 @@
     {
         display: flex;
         flex-direction: column;
+        padding-top: 15px;
+        padding-bottom: 15px;
     }
     .carte-restau
     {
@@ -136,13 +138,14 @@
         width: 80px;
         height: 29px;
         top: 44px;
-        left: 255px;
+        left: 73%;
         background-color: #99E2D0;
         color: #00957a;
         line-height: 2;
         font-weight: 600;
         font-size: 0.9em;
         border-radius: 2px;
+        margin-top: -29px;
     }
     img
     {
@@ -227,10 +230,11 @@
     {
         flex-direction: unset;
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: space-around;
         width: auto;
         align-items: center;
         text-align: center;
+        padding-right: 2.1%;
     }
     .fonction
     {
@@ -240,7 +244,7 @@
     {
         flex-direction: unset;
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: space-around;
         width: auto;
         padding-left: 0;
         padding-right: 0;
