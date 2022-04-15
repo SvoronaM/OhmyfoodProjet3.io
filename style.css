@@ -33,8 +33,6 @@
     }
     p
     {
-        font-size: 1.1em;
-        font-weight: 400;
         padding-left: 20px;
         padding-right: 15px;
         margin: 0;
@@ -92,7 +90,7 @@
         height: 26px;
         padding-left: 4px;
     }
-    .nombre
+    .plus
     {
         display: flex;
         margin: auto 20px;
@@ -181,6 +179,7 @@
     {
         background-color: #000000;
         color: #fff;
+        height: 180px;
         padding-top: 5%;
         padding-bottom: 5%;
         padding-left: 5%;
@@ -192,9 +191,19 @@
         font-family: 'Shrikhand', cursive;
         padding-top: 2%;
         padding-left: 4%;
+        padding-bottom: 25px;
         font-size: 1.1em;
         margin: 0;
         font-weight: 200;
+    }
+    footer .solid
+    {
+        display: flex;
+    }
+    footer p
+    {
+        padding-top: 5px;
+        padding-bottom: 20px;
     }
 @media screen and (min-width: 760px)
 {
