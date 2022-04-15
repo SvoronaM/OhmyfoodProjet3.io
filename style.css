@@ -1,7 +1,7 @@
     body
     {
         font-family: 'Roboto', sans-serif;
-        margin-left: 5px;
+        margin-left: 0;
         text-align: center;
     }
     h1
@@ -30,6 +30,8 @@
         font-weight: 800;
         padding-top: 41px;
         margin-bottom: 0;
+        text-align: center;
+        margin-left: 5%;
     }
     p
     {
@@ -54,17 +56,25 @@
     {
         display: flex;
         flex-direction: column;
-        width: 340px;
         margin-top: 20px;
         text-align: left;
         margin-left: 20px;
+    }
+    article h2
+    {
+        text-align: unset;
+    }
+    .fonctionement
+    {
+        display: flex;
+        flex-direction: column;
     }
     .fonction
     {
         display: flex;
         width: 344px;
         height: 70px;
-        margin: 23px auto 8px;
+        margin: 23px 20px 8px;
         font-size: 1.1em;
         text-indent: 5px;
         text-decoration:none;
@@ -106,6 +116,10 @@
         padding-left: 15px;
         padding-right: 15px;
     }
+    section h2
+    {
+        text-align: unset;
+    }
     .menu
     {
         display: flex;
@@ -122,7 +136,7 @@
         width: 80px;
         height: 29px;
         top: 44px;
-        left: 73%;
+        left: 255px;
         background-color: #99E2D0;
         color: #00957a;
         line-height: 2;
@@ -141,6 +155,7 @@
     {
         display: flex;
         justify-content: space-between;
+        width: 350px;
         background-color: #ffffff;
         border-bottom-right-radius: 20px;
         border-bottom-left-radius: 20px;
@@ -207,7 +222,7 @@
     }
 @media screen and (min-width: 760px)
 {
-    article
+    .fonctionement
     {
         flex-direction: unset;
         flex-wrap: wrap;
@@ -216,9 +231,9 @@
         align-items: center;
         text-align: center;
     }
-    .choisissez, .composez, .deguster
+    .fonction
     {
-        margin: 3px 3px 30px;
+        margin: 1%;
     }
     section
     {
@@ -228,5 +243,18 @@
         width: auto;
         align-items: center;
         text-align: left;
+    }
+    .menu
+    {
+        flex-direction: unset;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: auto;
+        align-items: center;
+        text-align: center;
+    }
+    .carte-restau
+    {
+        margin-right: 2%;
     }
 }
