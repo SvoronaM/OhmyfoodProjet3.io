@@ -2,8 +2,7 @@
     {
         width: 100%;
         font-family: 'Roboto', sans-serif;
-        margin-left: 0;
-        margin-right: 0;
+        margin: 0;
         text-align: center;
     }
     h1
@@ -70,11 +69,12 @@
     {
         display: flex;
         flex-direction: column;
+        width: 100%;
     }
     .fonction
     {
         display: flex;
-        width: 323px;
+        width: 80%;
         height: 70px;
         margin: 23px 20px 8px;
         font-size: 1.1em;
@@ -239,6 +239,7 @@
     }
     .fonction
     {
+        width: 323px;
         margin: 1%;
     }
     section
