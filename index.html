@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr" xmlns="http://www.w3.org/1999/html">
+<html lang="fr" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -15,7 +15,10 @@
             <h1>ohmyfood</h1>
             <!--    /* Header */    /* Header */    /* Header */    /* Header */    /* Header */    -->
         <header>
-            <label for="Paris, Belleville"></label><input type="search" id="Paris, Belleville" name="search">
+          <div class="block search">
+              <label for="emplacement"></label>
+              <input type="text" id="emplacement" value="Paris, Belleville">
+          </div>
             <h2>Réservez le menu qui<br/> vous convient</h2>
             <p>Découvrez des restaurants d'exception, sélectionnés par non soins.</p>
             <button class="favorite styled" type="button">Explorer nos restaurants</button>
@@ -27,6 +30,7 @@
                 <div class="fonction">
                     <h6>1</h6>
                     <div class="icon plus">
+                        <div class="solid">
                         <div class="solid">
                             <i class="fa-solid fa-mobile-screen-button"></i>
                         </div>
@@ -49,12 +53,12 @@
                             <i class="fa-solid fa-store"></i>
                         </div>
                             <p>Déguster au restaurant</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </article>
             <!-- /* section */   /* section */   /* section */   /* section */   /* section */ -->
-
         <section>
             <h2>Restaurants</h2>
                 <div class="menu">
