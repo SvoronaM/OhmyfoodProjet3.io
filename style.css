@@ -8,11 +8,12 @@
     h1
     {
         font-family: 'Shrikhand', cursive;
-        font-size: 40px;
+        font-size: 1.8em;
         padding-left: 2%;
         padding-right: 2%;
         margin-top: 3%;
         margin-bottom: 3%;
+        font-weight: 400;
     }
     /* Header */  /* Header */  /* Header */  /* Header */
     header, header.h2
@@ -20,11 +21,21 @@
         background-color: #f4f7f7;
         padding-bottom: 20px;
     }
-    h4
+    .search
     {
-        font-size: 1.01em;
-        padding: 20px;
-        background-color: #e3e3e3;
+        padding: 16px;
+        background-color: #eeeeee;
+        border: none;
+        box-shadow: inset 0 10px 8px -8px rgba(0,0,0,0.2);
+    }
+    #emplacement
+    {
+        width: 135px;
+        border: none;
+        background-color: #eeeeee;
+        font-weight: 600;
+        font-size: 1em;
+        text-align: center;
     }
     h2
     {
