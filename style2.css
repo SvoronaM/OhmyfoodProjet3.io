@@ -131,12 +131,13 @@
     }
     button
     {
-        margin: 5% 15%;
+        margin-top: 20px;
+        margin-bottom: 60px;
     }
     .styled
     {
-        width: 250px;
-        line-height: 3;
+        width: 180px;
+        line-height: 2.8;
         font-size: 1.1em;
         color: #fff;
         border: 0;
