@@ -6,10 +6,10 @@
         margin: 0;
     }
         /* Header */  /* Header */  /* Header */  /* Header */
-    a
+    .heading
     {
         display: flex;
-        justify-content: space-around;
+        justify-content: center;
         text-decoration: none;
         color: black;
         margin: 0.5%;
@@ -18,9 +18,23 @@
         font-size: 20px;
         padding-top: 2%;
     }
+    .fa-arrow-left
+    {
+        position: absolute;
+        color: #000000;
+        left: 24px;
+        top: 28px;
+    }
     h1, h2
     {
         font-family: 'Shrikhand', cursive;
+    }
+    h1
+    {
+        font-size: 1.5em;
+        margin-top: 7px;
+        margin-bottom: 7px;
+        font-weight: 600;
     }
     .img
     {
@@ -50,7 +64,22 @@
         background-color: #f5f5f5;
         width: 100%;
         border-radius: 40px 40px 0 0;
-        margin-top: -48px;
+        margin-top: -53px;
+    }
+    .labelle
+    {
+        display: flex;
+        justify-content: space-around;
+    }
+    h2
+    {
+        font-size: 1.7em;
+    }
+    .fa-heart
+    {
+        padding-top: 26px;
+        font-size: 1.5em;
+        transform: scale(1, 1.1);
     }
     h3
     {
@@ -61,11 +90,6 @@
         margin-top: 10px;
         padding-bottom: 4px;
         margin-left: 3%;
-    }
-    .fa-heart
-    {
-        padding-right: 28px;
-        font-size: 1.5em;
     }
     .menu
     {
