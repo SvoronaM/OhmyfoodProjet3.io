@@ -113,18 +113,24 @@
     {
         font-weight: bold;
     }
+    .price
+    {
+        font-size: 0.8em;
+    }
     .text2
     {
         font-size: 0.8em;
-        color: #8d8d8d;
+        color: #000000;
+        font-weight: 300;
     }
     .element
     {
         display: flex;
-        height: 24px;
+        height: 14px;
         padding-left: 5px;
         align-items: center;
         background-color: #ffffff;
+        padding-top: 10px;
     }
     .element:nth-child(2)
     {
@@ -197,6 +203,9 @@
     footer .text2
     {
         padding-left: 14px;
+        color: white;
+        font-weight: 600;
+        font-size: 1em;
     }
 @media screen and (min-width: 760px)
 {
