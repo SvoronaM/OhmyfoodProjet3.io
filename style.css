@@ -59,6 +59,7 @@
         width: 220px;
         line-height: 3;
         font-size: 0.95em;
+        cursor: pointer;
         color: #fff;
         border: 0;
         border-radius: 50px;
@@ -67,10 +68,10 @@
         margin-top: 30px;
         margin-bottom: 30px;
     }
-    .styled :hover
+    .styled :hover .styled:before
     {
         box-shadow: 2px 6px 16px 1px rgba(31, 31, 31, 0.48);
-        background-image: linear-gradient(#fda3e3, #9f72e0);
+        background-color: #9f72e0;
     }
     /* article */   /* article */   /* article */   /* article */
     article
@@ -237,15 +238,26 @@
     {
         margin: 0;
     }
-    div.coeur
+    .coeur
     {
         padding-top: 18px;
         padding-right: 28px;
+    }
+    .coeur > .fa-heart + .fa-heart,
+    .coeur:active > .fa-heart
+    {
+        display: none;
+        color: #9356DC;
+    }
+    .coeur:active > .fa-heart + .fa-heart
+    {
+        display: inherit;
     }
     .fa-heart
     {
         font-size: 1.5em;
         transform: scale(0.9, 1.1);
+        cursor: pointer;
     }
     .text p
     {
