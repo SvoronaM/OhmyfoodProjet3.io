@@ -172,12 +172,11 @@
     }
     .carte-restau
     {
-    width: 90%;
+    width: 95%;
     }
     .img
     {
         display: flex;
-        width: 100%;
     }
     img
     {
