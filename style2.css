@@ -108,6 +108,14 @@
         background-color: #ffffff;
         padding: 6px;
     }
+    .conteneur:hover
+    {
+        transform-origin: left 20%;
+        transform: scaleX(0.5);
+        color: #99E2D0;
+        animation-fill-mode: backwards;
+        cursor: pointer;
+    }
     .text1
     {
         font-weight: bold;
