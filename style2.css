@@ -80,6 +80,17 @@
         padding-top: 30px;
         font-size: 1.5em;
         transform: scale(1, 1.1);
+        cursor: pointer;
+    }
+    .labelle > .fa-heart + .fa-heart,
+    .labelle:active > .fa-heart
+    {
+        display: none;
+        color: #9356DC;
+    }
+    .labelle:active > .fa-heart + .fa-heart
+    {
+        display: inherit;
     }
     h3
     {
