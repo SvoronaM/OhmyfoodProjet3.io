@@ -111,10 +111,19 @@
     }
     .conteneur:hover
     {
-        transform-origin: left 20%;
-        transform: scaleX(1);
-        background-color: #99E2D0;
-        animation-fill-mode: backwards;
+        animation-duration: 5s;
+        animation-name: choix;
+    }
+    @keyframes choix {
+        from {
+            margin-left: 0;
+        }
+        75% {
+            margin-left: 25%;
+        }
+        to {
+            margin-left: 100%;
+        }
     }
     .text1
     {
