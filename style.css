@@ -246,7 +246,6 @@
     .fa-heart
     {
         font-size: 1.5em;
-        transform: scale(0.9, 1.1);
         cursor: pointer;
     }
     .coeur > .fa-heart + .fa-heart,
