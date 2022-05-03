@@ -75,21 +75,36 @@
     {
         font-size: 1.7em;
     }
-    .fa-heart
+    .coeur
     {
         padding-top: 30px;
         font-size: 1.5em;
         cursor: pointer;
+        position: relative;
     }
-    .labelle > .fa-heart + .fa-heart,
-    .labelle:active > .fa-heart
+    .plein
     {
-        display: none;
-        color: #9356DC;
+        opacity: 0;
+        position: absolute;
+        padding-top: 2px;
     }
-    .labelle:active > .fa-heart + .fa-heart
+    .vide
     {
-        display: inherit;
+        opacity: 1;
+        transition-duration: 1s;
+        bottom: 0;
+    }
+    .coeur:hover > .plein
+    {
+        opacity: 1;
+        background: -webkit-gradient(linear, left top, left bottom, from(#9356DC), to(#FF79DA));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        transition-duration: 1s;
+    }
+    .coeur:hover > .vide
+    {
+        opacity: 0;
     }
     h3
     {
