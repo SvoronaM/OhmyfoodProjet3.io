@@ -131,20 +131,46 @@
         box-shadow: 12px 12px 7px rgba(223, 221, 221, 0.6);
         background-color: #ffffff;
         padding: 6px;
+        overflow: hidden;
         cursor: pointer;
     }
-    .conteneur:hover
+    .conteneur:hover > .check
     {
-        animation-duration: 1s;
-        animation-name: choix;
+        width: 60px;
+        height: 68px;
+        left: 20px;
+        background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#99E2D0));
+        -webkit-background-clip: text;
+        transition-duration: 1s;
     }
-    @keyframes choix {
-        from {
-            width: 325px;
-        }
-        to {
-         width: 250px;
-        }
+    .conteneur:hover > .fa-circle-check
+    {
+        -webkit-transform: rotate(-1turn);
+        transform: rotate(-1turn);
+    }
+    .check {
+        color: #ffffff;
+        position: fixed;
+        display: flex;
+        width: 0;
+        margin: auto;
+        align-items: center;
+        transition: width 1s, background-color 1s, transform 1s;
+        left: 351px;
+    }
+    .fa-circle-check
+    {
+        position: fixed;
+    }
+    .fa-circle-check:hover
+    {
+        background-color: #99E2D0;
+        transform: rotate(-1turn);
+        font-weight: bold;
+        font-size: xx-large;
+        width: 60px;
+        height: 68px;
+        margin-bottom: 27px;
     }
     .text1
     {
@@ -190,6 +216,7 @@
         background-image: linear-gradient(#FF79DA, #9356DC);
         align-items: center;
         text-align: center;
+        cursor: pointer;
     }
     .styled:hover
     {
