@@ -111,6 +111,7 @@
         font-size: 1em;
         border-bottom: 3px solid #99E2D0;
         width: 40px;
+        height: 26px;
         margin-top: 10px;
         padding-bottom: 4px;
         margin-left: 3%;
@@ -134,46 +135,98 @@
         overflow: hidden;
         cursor: pointer;
     }
-    .menu
+    @-webkit-keyframes plat {
+        0%{
+            opacity: 0;
+        }
+        80%{
+            opacity: 0;
+        }
+        100%{
+            opacity: 1;
+        }
+    }
+    .entrees
     {
         opacity: 1;
-        -webkit-animation: plats 1s linear;
-        animation: plats 1s linear;
+        animation-name: plat;
+        -webkit-animation: plat 0.8s;
+        animation: plat 0.8s;
     }
-    @-webkit-keyframes plats {
-        0%{
-            opacity: 0;
-        }
-        100%{
-            opacity: 1;
-        }
-    }
-    @keyframes plats {
-        0%{
-            opacity: 0;
-        }
-        100%{
-            opacity: 1;
-        }
-    }
-    .conteneur1:nth-child(1)
+    .plats
     {
-        -webkit-animation: plats 1s linear backwards;
-                animation: plats 1s linear backwards;
+        opacity: 1;
+        animation-name: plat;
+        -webkit-animation: plat 2.7s;
+        animation: plat 2.7s;
+    }
+    .desserts
+    {
+        opacity: 1;
+        animation-name: plat;
+        -webkit-animation: plat 4.3s;
+        animation: plat 4.3s;
+    }
+    .entrees .conteneur1
+    {
+        -webkit-animation: plat 1s linear backwards;
+                animation: plat 1s linear backwards;
                 opacity: 1;
     }
-   .conteneur1:nth-child(2)
+    .entrees .conteneur2
     {
-        -webkit-animation: plats 2s linear backwards;
-                animation: plats 2s linear backwards;
+        -webkit-animation: plat 1.5s linear backwards;
+                animation: plat 1.5s linear backwards;
                 opacity: 1;
     }
-    .conteneur1:nth-child(3)
-        {
-            -webkit-animation: plats 3s linear backwards;
-            animation: plats 3s linear backwards;
-            opacity: 1;
-        }
+    .entrees .conteneur3
+    {
+        -webkit-animation: plat 2s linear backwards;
+                animation: plat 2s linear backwards;
+                opacity: 1;
+    }
+    .entrees .conteneur4
+    {
+        -webkit-animation: plat 2.5s linear backwards;
+        animation: plat 2.5s linear backwards;
+        opacity: 1;
+    }
+    .plats .conteneur1
+    {
+        -webkit-animation: plat 3s linear backwards;
+        animation: plat 3s linear backwards;
+        opacity: 1;
+    }
+    .plats .conteneur2
+    {
+        -webkit-animation: plat 3.5s linear backwards;
+        animation: plat 3.5s linear backwards;
+        opacity: 1;
+    }
+    .plats .conteneur3
+    {
+        -webkit-animation: plat 4s linear backwards;
+        animation: plat 4s linear backwards;
+        opacity: 1;
+    }
+    .desserts .conteneur1
+    {
+        -webkit-animation: plat 4.5s linear backwards;
+        animation: plat 4.5s linear backwards;
+        opacity: 1;
+    }
+    .desserts .conteneur2
+    {
+        -webkit-animation: plat 5s linear backwards;
+        animation: plat 5s linear backwards;
+        opacity: 1;
+    }
+    .desserts .conteneur3
+    {
+        -webkit-animation: plat 5.5s linear backwards;
+        animation: plat 5.5s linear backwards;
+        opacity: 1;
+    }
     .conteneur:hover > .check
     {
         width: 60px;
