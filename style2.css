@@ -226,7 +226,7 @@
         -webkit-animation: plat 5.5s linear backwards;
         animation: plat 5.5s linear backwards;
         opacity: 1;
-    }
+    }/*
     .conteneur:hover > .check
     {
         width: 60px;
@@ -264,7 +264,7 @@
         width: 60px;
         height: 68px;
         margin-bottom: 27px;
-    }
+    }*/
     .text1
     {
         font-weight: bold;
