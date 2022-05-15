@@ -148,85 +148,83 @@
     }
     .entrees
     {
-        opacity: 1;
-        animation-name: plat;
-        -webkit-animation: plat 0.8s;
-        animation: plat 0.8s;
-    }
-    .plats
-    {
-        opacity: 1;
-        animation-name: plat;
-        -webkit-animation: plat 2.7s;
-        animation: plat 2.7s;
-    }
-    .desserts
-    {
-        opacity: 1;
-        animation-name: plat;
-        -webkit-animation: plat 4.3s;
-        animation: plat 4.3s;
+        -webkit-animation: plat 0.3s linear backwards;
+                animation: plat 0.3s linear backwards;
+                opacity: 1;
     }
     .entrees .conteneur1
     {
-        -webkit-animation: plat 1s linear backwards;
-                animation: plat 1s linear backwards;
+        -webkit-animation: plat 0.6s linear backwards;
+                animation: plat 0.6s linear backwards;
                 opacity: 1;
     }
     .entrees .conteneur2
+    {
+        -webkit-animation: plat 0.9s linear backwards;
+                animation: plat 0.9s linear backwards;
+                opacity: 1;
+    }
+    .entrees .conteneur3
+    {
+        -webkit-animation: plat 1.2s linear backwards;
+                animation: plat 1.2s linear backwards;
+                opacity: 1;
+    }
+    .entrees .conteneur4
     {
         -webkit-animation: plat 1.5s linear backwards;
                 animation: plat 1.5s linear backwards;
                 opacity: 1;
     }
-    .entrees .conteneur3
+    .plats
     {
-        -webkit-animation: plat 2s linear backwards;
-                animation: plat 2s linear backwards;
+        animation-name: plat;
+        -webkit-animation: plat 1.8s linear backwards;
+                animation: plat 1.8s linear backwards;
                 opacity: 1;
-    }
-    .entrees .conteneur4
-    {
-        -webkit-animation: plat 2.5s linear backwards;
-        animation: plat 2.5s linear backwards;
-        opacity: 1;
     }
     .plats .conteneur1
     {
-        -webkit-animation: plat 3s linear backwards;
-        animation: plat 3s linear backwards;
-        opacity: 1;
+        -webkit-animation: plat 2.1s linear backwards;
+                animation: plat 2.1s linear backwards;
+                opacity: 1;
     }
     .plats .conteneur2
     {
-        -webkit-animation: plat 3.5s linear backwards;
-        animation: plat 3.5s linear backwards;
-        opacity: 1;
+        -webkit-animation: plat 2.4s linear backwards;
+                animation: plat 2.4s linear backwards;
+                opacity: 1;
     }
     .plats .conteneur3
     {
-        -webkit-animation: plat 4s linear backwards;
-        animation: plat 4s linear backwards;
-        opacity: 1;
+        -webkit-animation: plat 2.7s linear backwards;
+                animation: plat 2.7s linear backwards;
+                opacity: 1;
+    }
+    .desserts
+    {
+        -webkit-animation: plat 3s linear backwards;
+                animation: plat 3s linear backwards;
+                opacity: 1;
     }
     .desserts .conteneur1
     {
-        -webkit-animation: plat 4.5s linear backwards;
-        animation: plat 4.5s linear backwards;
-        opacity: 1;
+        -webkit-animation: plat 3.3s linear backwards;
+                animation: plat 3.3s linear backwards;
+                opacity: 1;
     }
     .desserts .conteneur2
     {
-        -webkit-animation: plat 5s linear backwards;
-        animation: plat 5s linear backwards;
-        opacity: 1;
+        -webkit-animation: plat 3.6s linear backwards;
+                animation: plat 3.6s linear backwards;
+                opacity: 1;
     }
     .desserts .conteneur3
     {
-        -webkit-animation: plat 5.5s linear backwards;
-        animation: plat 5.5s linear backwards;
-        opacity: 1;
-    }/*
+        -webkit-animation: plat 3.9s linear backwards;
+                animation: plat 3.9s linear backwards;
+                opacity: 1;
+    }
     .conteneur:hover > .check
     {
         width: 60px;
@@ -264,7 +262,7 @@
         width: 60px;
         height: 68px;
         margin-bottom: 27px;
-    }*/
+    }
     .text1
     {
         font-weight: bold;
