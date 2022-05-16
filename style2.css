@@ -139,7 +139,7 @@
         0%{
             opacity: 0;
         }
-        80%{
+        90%{
             opacity: 0;
         }
         100%{
@@ -225,38 +225,31 @@
                 animation: plat 3.9s linear backwards;
                 opacity: 1;
     }
-    .conteneur:hover > .check
+    .slide
     {
-        width: 60px;
-        height: 68px;
-        left: 20px;
-        background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#99E2D0));
-        -webkit-background-clip: text;
-        transition-duration: 1s;
-    }
-    .conteneur:hover > .fa-circle-check
-    {
-        -webkit-transform: rotate(-1turn);
-        transform: rotate(-1turn);
-    }
-    .check {
         color: #ffffff;
         position: fixed;
         display: flex;
         width: 0;
-        margin: auto;
-        align-items: center;
-        transition: width 1s, background-color 1s, transform 1s;
-        left: 351px;
+        margin-left: 299px;
+        margin-bottom: 30px;
     }
     .fa-circle-check
     {
-        position: fixed;
+        color: white;
     }
-    .fa-circle-check:hover
+    .slide:hover
     {
-        background-color: #99E2D0;
+        width: 60px;
+        height: 68px;
+        left: 20px;
+        color: #99E2D0;
+    }
+    .conteneur1:hover > .fa-circle-check
+    {
+        -webkit-transform: rotate(-1turn);
         transform: rotate(-1turn);
+        background-color: #99E2D0;
         font-weight: bold;
         font-size: xx-large;
         width: 60px;
