@@ -2,6 +2,7 @@
     {
         font-family: 'Roboto', sans-serif;
         text-align: center;
+        margin: 0;
     }
     /* Header */  /* Header */  /* Header */  /* Header */
     .heading
@@ -255,17 +256,23 @@
     .text1
     {
         font-weight: bold;
+        margin: 9px 0 0 0;
+        line-height: 20px;
         overflow: hidden;
-        margin: 0;
-       }
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
     .text2
     {
         text-align: left;
         font-size: 0.8em;
-        margin: 0;
         color: #000000;
         font-weight: 400;
+        margin-top: 6px;
+        line-height: 18px;
         overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
     }
     .price
     {
@@ -279,15 +286,13 @@
         display: flex;
         flex-direction: column;
         text-align: left;
-        line-height: 2;
-        overflow: hidden;
         margin-left: 10px;
-        margin-bottom: 4px;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
     .element_2
     {
         display: flex;
-        overflow: hidden;
     }
     .element:nth-child(2)
     {
