@@ -255,6 +255,7 @@
     }
     .text1
     {
+        text-align: left;
         font-weight: bold;
         margin: 7px 0 0 0;
         height: 33px;
@@ -281,14 +282,14 @@
         font-size: 0.8em;
         font-weight: bold;
         margin-top: 34px;
-        margin-right: 22px;
+        margin-right: 20px;
     }
     .element_1
     {
         display: flex;
         flex-direction: column;
         text-align: left;
-        margin-left: 6px;
+        margin-left: 10px;
         overflow: hidden;
         text-overflow: ellipsis;
     }
