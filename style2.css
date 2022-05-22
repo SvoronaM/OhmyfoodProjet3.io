@@ -115,6 +115,45 @@ body {
         overflow: hidden;
         cursor: pointer;
     }
+    .text1 {
+        text-align: left;
+        font-weight: bold;
+        margin: 7px 0 0 0;
+        height: 33px;
+        line-height: 22px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+    .text2 {
+        text-align: left;
+        font-size: 0.8em;
+        color: #000000;
+        font-weight: 400;
+        margin-top: -6px;
+        margin-bottom: 2px;
+        line-height: 18px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+    .price {
+        font-size: 0.8em;
+        font-weight: bold;
+        margin-top: 34px;
+        margin-right: 20px;
+    }
+    .element_1 {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        margin-left: 10px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .element_2 {
+    display: flex;
+    }
 /*  l'animation d'apparition  */    /*  l'animation d'apparition  */    /*  l'animation d'apparition  */
     @-webkit-keyframes plat {
         0% {
@@ -218,45 +257,6 @@ body {
     .conteneur3:hover > .element_2 .slide .fa-circle-check, .conteneur4:hover > .element_2 .slide .fa-circle-check {
         transform: rotate(-1turn);
         transition: transform 1s;
-    }
-    .text1 {
-        text-align: left;
-        font-weight: bold;
-        margin: 7px 0 0 0;
-        height: 33px;
-        line-height: 22px;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        white-space: nowrap;
-    }
-    .text2 {
-        text-align: left;
-        font-size: 0.8em;
-        color: #000000;
-        font-weight: 400;
-        margin-top: -6px;
-        margin-bottom: 2px;
-        line-height: 18px;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        white-space: nowrap;
-    }
-    .price {
-        font-size: 0.8em;
-        font-weight: bold;
-        margin-top: 34px;
-        margin-right: 20px;
-    }
-    .element_1 {
-        display: flex;
-        flex-direction: column;
-        text-align: left;
-        margin-left: 10px;
-        overflow: hidden;
-        text-overflow: ellipsis;
-    }
-    .element_2 {
-        display: flex;
     }
 /*   button    */     /*   button    */    /*   button    */     /*   button    */
     button {
