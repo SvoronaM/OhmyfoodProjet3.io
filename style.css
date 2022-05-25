@@ -5,8 +5,8 @@ body {
     }
     /* Loader spinner */    /* Loader spinner */      /* Loader spinner */      /* Loader spinner */      /* Loader spinner */
     #loading {
-        overflow:hidden;
-        position:relative;
+        overflow: hidden;
+        position: relative;
     }
     .lds-roller {
         display: inline-block;
