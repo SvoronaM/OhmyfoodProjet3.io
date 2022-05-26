@@ -98,7 +98,6 @@ body {
             transform: rotate(360deg);
         }
     }
-
     .lds-roller {
         -webkit-animation: cssAnimation 3.5s forwards;
         animation: cssAnimation 3.5s forwards;
@@ -331,6 +330,7 @@ body {
     a {
         text-decoration: none;
         color: #000000;
+        cursor: pointer;
     }
     .text {
         padding-top: 15px;
@@ -377,17 +377,16 @@ body {
     footer {
         background-color: #000000c9;
         color: #fff;
-        padding-top: 30px;
-        padding-bottom: 20px;
         padding-left: 5%;
+        padding-top: 3%;
+        padding-bottom: 3%;
         line-height: 0.2;
         text-align: left;
     }
     h5 {
         font-family: 'Shrikhand', cursive;
-        padding-top: 2%;
-        padding-left: 4%;
-        padding-bottom: 25px;
+        padding-top: 3%;
+        padding-bottom: 22px;
         font-size: 1.1em;
         margin: 0;
         font-weight: 200;
@@ -398,8 +397,9 @@ body {
     footer .solid2 {
         display: flex;
     }
-    footer p {
+    footer p, a {
         padding-top: 5px;
+        color: #fff;
         padding-bottom: 20px;
         margin: 0;
     }
@@ -412,36 +412,39 @@ body {
         padding-left: 14px;
     }
 @media screen and (min-width: 760px) {
-        .fonctionement {
-            flex-direction: unset;
-            flex-wrap: wrap;
-            justify-content: space-around;
-            width: 100%;
-            align-items: center;
-            text-align: center;
-        }
-        .fonction {
-            width: 320px;
-            margin: 1%;
-        }
-        section {
-            flex-direction: unset;
-            flex-wrap: wrap;
-            justify-content: center;
-            padding-right: 0;
-            align-items: center;
-            text-align: left;
-        }
-        .menu {
-            flex-direction: unset;
-            flex-wrap: wrap;
-            justify-content: center;
-            width: auto;
-            align-items: center;
-            text-align: center;
-        }
-        .carte-restau {
-            margin-right: 2%;
-            width: 340px;
-        }
+    .fonctionement {
+        flex-direction: unset;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+    .fonction {
+        width: 320px;
+        margin: 1%;
+    }
+    section {
+        flex-direction: unset;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-right: 0;
+        align-items: center;
+        text-align: left;
+    }
+    .menu {
+        flex-direction: unset;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: auto;
+        align-items: center;
+        text-align: center;
+    }
+    .carte-restau {
+        margin-right: 2%;
+        width: 340px;
+    }
+    footer{
+        padding-top: unset;
+    }
 }

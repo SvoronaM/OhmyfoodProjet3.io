@@ -284,12 +284,14 @@ body {
         background-color: #000000c9;
         color: #fff;
         padding-left: 5%;
+        padding-top: 3%;
+        padding-bottom: 3%;
         text-align: left;
     }
     h5 {
         font-family: 'Shrikhand', cursive;
         font-size: 1.1em;
-        padding-top: 7%;
+        padding-top: 3%;
         margin: 0;
         font-weight: 200;
     }
@@ -299,9 +301,12 @@ body {
     footer .solid2 {
         display: flex;
     }
-    footer p {
+    footer p, a {
         font-size: 1em;
         margin: 10px 0 0 0;
+        color: #fff;
+        cursor: pointer;
+        text-decoration: none;
     }
     footer .text1 {
         font-weight: unset;
@@ -330,7 +335,7 @@ body {
     .conteneur1, .conteneur2, .conteneur3, .conteneur4 {
         width: 325px;
     }
-    h5 {
-        padding-top: 5%;
+    footer{
+        padding-top: unset;
     }
 }
