@@ -18,7 +18,7 @@ body {
         right: 0;
         bottom: 0;
         margin: auto;
-        z-indzex: -3;
+        z-index: -3;
     }
     .lds-roller div {
         animation: lds-roller 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
