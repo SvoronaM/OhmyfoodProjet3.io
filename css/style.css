@@ -218,24 +218,26 @@ body {
         width: 100%;
     }
     .fonctionement :hover {
-        box-shadow: 1px 1px 16px 2px #c3c1c1;
-        background-color: rgb(248, 248, 248);
-    }
+        box-shadow: 2px 3px 13px 4px rgba(0, 0, 0, 0.4);
+        background-color: rgba(245, 245, 245, 0.5);
+}
     .fonction {
         display: flex;
         position: relative;
         cursor: pointer;
         height: 70px;
+        width: 90%;
         margin: 16px 20px 8px;
         font-weight: 600;
         text-indent: 5px;
         color: black;
         border-radius: 20px;
-        box-shadow: 1px 1px 16px 2px rgba(21,29,66,0.14);
-        background-color: rgba(245, 245, 245, 1);
+        box-shadow: 1px 3px 12px 4px rgba(0, 0, 0, 0.2);
+        background-color: rgba(239, 239, 239, 0.51);
     }
     .fonction :hover {
         box-shadow: none;
+        background-color: unset;
     }
     .number {
         text-align: left;
@@ -267,6 +269,7 @@ body {
     }
     .fonctionement :hover > .solid1 {
         color: #9356DC;
+        box-shadow: none;
     }
     /* section */   /* section */   /* section */   /* section */
     section {
@@ -416,7 +419,6 @@ body {
         flex-direction: unset;
         flex-wrap: wrap;
         justify-content: space-around;
-        width: 100%;
         align-items: center;
         text-align: center;
     }
