@@ -239,26 +239,26 @@ body {
         display: flex;
         background-color: #99E2D0;
         width: 0;
-        transition: 0.5s;
+        transition: 1s;
     }
-    .slide .fa-circle-check {
+    .fa-circle-check {
         margin: auto;
         color: #ffffff;
         font-size: x-large;
         font-weight: bold;
         transform: rotate(0);
-        transition: transform 0.5s;
+        transition: transform 1s;
     }
 /*  l'animation slide  */    /*  l'animation slide  */    /*  l'animation slide  */    /*  l'animation slide  */
     .conteneur1:hover > .element_2 .slide, .conteneur2:hover > .element_2 .slide,
     .conteneur3:hover > .element_2 .slide , .conteneur4:hover > .element_2 .slide {
         width: 60px;
-        transition: 0.5s;
+        transition: 1s;
     }
     .conteneur1:hover > .element_2 .slide .fa-circle-check, .conteneur2:hover > .element_2 .slide .fa-circle-check,
     .conteneur3:hover > .element_2 .slide .fa-circle-check, .conteneur4:hover > .element_2 .slide .fa-circle-check {
         transform: rotate(1turn);
-        transition: transform 0.5s;
+        transition: transform 1s;
     }
 /*   button    */     /*   button    */    /*   button    */     /*   button    */
     button {
