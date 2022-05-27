@@ -141,7 +141,7 @@ body {
             opacity: 1;
         }
     }
-    /* Header */  /* Header */  /* Header */  /* Header */
+    /*   Header   */     /*   Header   */     /*   Header   */     /*   Header   */
     h1 {
         font-family: 'Shrikhand', cursive;
         font-size: 1.8em;
@@ -219,8 +219,7 @@ body {
     }
     .fonctionement :hover {
         box-shadow: 2px 3px 13px 4px rgba(0, 0, 0, 0.4);
-        background-color: rgba(245, 245, 245, 0.5);
-}
+    }
     .fonction {
         display: flex;
         position: relative;
@@ -237,7 +236,6 @@ body {
     }
     .fonction :hover {
         box-shadow: none;
-        background-color: unset;
     }
     .number {
         text-align: left;
@@ -267,7 +265,7 @@ body {
         padding-right: 21px;
         padding-left: 9px;
     }
-    .fonctionement :hover > .solid1 {
+    .fonctionement :hover > .plus .solid1 {
         color: #9356DC;
         box-shadow: none;
     }
