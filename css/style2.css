@@ -152,7 +152,7 @@ body {
         text-overflow: ellipsis;
     }
     .element_2 {
-    display: flex;
+        display: flex;
     }
 /*  l'animation d'apparition  */    /*  l'animation d'apparition  */    /*  l'animation d'apparition  */
     @-webkit-keyframes plat {
@@ -168,79 +168,78 @@ body {
     }
     .entrees {
         -webkit-animation: plat 0.3s linear backwards;
-                animation: plat 0.3s linear backwards;
-                opacity: 1;
+        animation: plat 0.3s linear backwards;
+        opacity: 1;
         margin-bottom: 24px;
     }
     .entrees .conteneur1 {
         -webkit-animation: plat 0.6s linear backwards;
-                animation: plat 0.6s linear backwards;
-                opacity: 1;
+        animation: plat 0.6s linear backwards;
+        opacity: 1;
     }
     .entrees .conteneur2 {
         -webkit-animation: plat 0.9s linear backwards;
-                animation: plat 0.9s linear backwards;
-                opacity: 1;
+        animation: plat 0.9s linear backwards;
+        opacity: 1;
     }
     .entrees .conteneur3 {
         -webkit-animation: plat 1.2s linear backwards;
-                animation: plat 1.2s linear backwards;
-                opacity: 1;
+        animation: plat 1.2s linear backwards;
+        opacity: 1;
     }
     .entrees .conteneur4 {
         -webkit-animation: plat 1.5s linear backwards;
-                animation: plat 1.5s linear backwards;
-                opacity: 1;
+        animation: plat 1.5s linear backwards;
+        opacity: 1;
     }
     .plats {
-        animation-name: plat;
         -webkit-animation: plat 1.8s linear backwards;
-                animation: plat 1.8s linear backwards;
-                opacity: 1;
+        animation: plat 1.8s linear backwards;
+        opacity: 1;
         margin-bottom: 24px;
     }
     .plats .conteneur1 {
         -webkit-animation: plat 2.1s linear backwards;
-                animation: plat 2.1s linear backwards;
-                opacity: 1;
+        animation: plat 2.1s linear backwards;
+        opacity: 1;
     }
     .plats .conteneur2 {
         -webkit-animation: plat 2.4s linear backwards;
-                animation: plat 2.4s linear backwards;
-                opacity: 1;
+        animation: plat 2.4s linear backwards;
+        opacity: 1;
     }
     .plats .conteneur3 {
         -webkit-animation: plat 2.7s linear backwards;
-                animation: plat 2.7s linear backwards;
-                opacity: 1;
+        animation: plat 2.7s linear backwards;
+        opacity: 1;
     }
     .desserts {
         -webkit-animation: plat 3s linear backwards;
-                animation: plat 3s linear backwards;
-                opacity: 1;
+        animation: plat 3s linear backwards;
+        opacity: 1;
         margin-bottom: 24px;
     }
     .desserts .conteneur1 {
         -webkit-animation: plat 3.3s linear backwards;
-                animation: plat 3.3s linear backwards;
-                opacity: 1;
+        animation: plat 3.3s linear backwards;
+        opacity: 1;
     }
     .desserts .conteneur2 {
         -webkit-animation: plat 3.6s linear backwards;
-                animation: plat 3.6s linear backwards;
-                opacity: 1;
+        animation: plat 3.6s linear backwards;
+        opacity: 1;
     }
     .desserts .conteneur3 {
         -webkit-animation: plat 3.9s linear backwards;
-                animation: plat 3.9s linear backwards;
-                opacity: 1;
+        animation: plat 3.9s linear backwards;
+        opacity: 1;
     }
     .slide {
         color: #ffffff;
         display: flex;
         background-color: #99E2D0;
         width: 0;
-        transition: 1s;
+        transition: 0.5s;
     }
     .slide .fa-circle-check {
         margin: auto;
@@ -248,18 +247,18 @@ body {
         font-size: xx-large;
         font-weight: bold;
         transform: rotate(0);
-        transition: transform 1s;
+        transition: transform 0.5s;
     }
 /*  l'animation slide  */    /*  l'animation slide  */    /*  l'animation slide  */    /*  l'animation slide  */
     .conteneur1:hover > .element_2 .slide, .conteneur2:hover > .element_2 .slide,
     .conteneur3:hover > .element_2 .slide , .conteneur4:hover > .element_2 .slide {
         width: 60px;
-        transition: 1s;
+        transition: 0.5s;
     }
     .conteneur1:hover > .element_2 .slide .fa-circle-check, .conteneur2:hover > .element_2 .slide .fa-circle-check,
     .conteneur3:hover > .element_2 .slide .fa-circle-check, .conteneur4:hover > .element_2 .slide .fa-circle-check {
-        transform: rotate(-1turn);
-        transition: transform 1s;
+        transform: rotate(1turn);
+        transition: transform 0.5s;
     }
 /*   button    */     /*   button    */    /*   button    */     /*   button    */
     button {
