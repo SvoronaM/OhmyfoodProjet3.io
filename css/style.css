@@ -324,8 +324,8 @@ body {
         background-color: #ffffff;
         border-bottom-right-radius: 20px;
         border-bottom-left-radius: 20px;
-        -webkit-box-shadow: 7px 7px 11px -3px rgba(0,0,0,0.3);
-        box-shadow: 7px 7px 11px -3px rgba(0,0,0,0.3);
+        -webkit-box-shadow: 7px 7px 11px -3px rgba( 0, 0, 0, .3);
+        box-shadow: 7px 7px 11px -3px rgba( 0, 0, 0, .3);
         position: relative;
         top: -5px;
         margin-bottom: 15px;
@@ -366,14 +366,14 @@ body {
     .vide {
         transition-duration: 1s;
     }
-    .coeur:hover > .plein {
+    .plein:hover {
         opacity: 1;
         background: -webkit-gradient(linear, left top, left bottom, from(#9356DC), to(#FF79DA));
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         transition-duration: 1s;
     }
-    .coeur:hover > .vide {
+    .vide:hover {
         opacity: 0;
     }
     /*  footer  */    /*  footer  */    /*  footer  */    /*  footer  */
