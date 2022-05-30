@@ -107,7 +107,6 @@
         width: 90%;
         height: 68px;
         font-size: 1.1em;
-        text-indent: 5px;
         margin: 10px 20px 17px;
         border-radius: 15px;
         box-shadow: 1px 2px 7px 3px rgba(223, 221, 221, 0.6);
@@ -246,8 +245,6 @@
         color: #ffffff;
         font-size: x-large;
         font-weight: bold;
-        transform: rotate(0);
-        transition: transform 1s;
     }
     /*  l'animation slide  */    /*  l'animation slide  */    /*  l'animation slide  */    /*  l'animation slide  */
     .conteneur1:hover > .element_2 .slide, .conteneur2:hover > .element_2 .slide,
