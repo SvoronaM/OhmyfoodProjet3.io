@@ -219,6 +219,7 @@ body {
     }
     .fonctionement :hover {
         box-shadow: 2px 3px 13px 4px rgba(0, 0, 0, 0.4);
+        background-color: rgba(230, 179, 255, 0.2);
     }
     .fonction {
         display: flex;
@@ -236,6 +237,7 @@ body {
     }
     .fonction :hover {
         box-shadow: none;
+        background-color: unset;
     }
     .number {
         text-align: left;
