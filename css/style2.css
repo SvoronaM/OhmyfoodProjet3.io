@@ -1,9 +1,9 @@
-body {
+    body {
         font-family: 'Roboto', sans-serif;
         text-align: center;
         margin: 0;
     }
-/*   Header   */     /*   Header   */     /*   Header   */     /*   Header   */
+    /*   Header   */     /*   Header   */     /*   Header   */     /*   Header   */
     .heading {
         display: flex;
         justify-content: center;
@@ -46,7 +46,7 @@ body {
     .delice {
         background: no-repeat center center / cover url(img/delice.jpg);
     }
-/*  section  */      /*  section  */      /*  section  */      /*  section  */
+    /*  section  */      /*  section  */      /*  section  */      /*  section  */
     section {
         background-color: #f5f5f5;
         border-radius: 40px 40px 0 0;
@@ -154,7 +154,7 @@ body {
     .element_2 {
         display: flex;
     }
-/*  l'animation d'apparition  */    /*  l'animation d'apparition  */    /*  l'animation d'apparition  */
+    /*  l'animation d'apparition  */    /*  l'animation d'apparition  */    /*  l'animation d'apparition  */
     @-webkit-keyframes plat {
         0% {
             opacity: 0;
@@ -249,7 +249,7 @@ body {
         transform: rotate(0);
         transition: transform 1s;
     }
-/*  l'animation slide  */    /*  l'animation slide  */    /*  l'animation slide  */    /*  l'animation slide  */
+    /*  l'animation slide  */    /*  l'animation slide  */    /*  l'animation slide  */    /*  l'animation slide  */
     .conteneur1:hover > .element_2 .slide, .conteneur2:hover > .element_2 .slide,
     .conteneur3:hover > .element_2 .slide , .conteneur4:hover > .element_2 .slide {
         width: 60px;
@@ -281,7 +281,7 @@ body {
         box-shadow: 2px 6px 16px 1px rgba(31, 31, 31, 0.48);
         background-image: linear-gradient(#fd8adc, #a173dc);
     }
-/*  footer  */     /*  footer  */     /*  footer  */     /*  footer  */
+    /*  footer  */     /*  footer  */     /*  footer  */     /*  footer  */
     footer {
         background-color: #000000c9;
         color: #fff;
