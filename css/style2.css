@@ -35,16 +35,16 @@
         object-fit: cover;
     }
     .palette {
-         background: no-repeat center center / cover url(img/palette.jpg);
+         background: no-repeat center center / cover url(../img/palette.jpg);
     }
     .note {
-        background: no-repeat center center / cover url(img/note.jpg);
+        background: no-repeat center center / cover url(../img/note.jpg);
     }
     .francaise {
-        background: no-repeat center center / cover url(img/francaise.jpg);
+        background: no-repeat center center / cover url(../img/francaise.jpg);
     }
     .delice {
-        background: no-repeat center center / cover url(img/delice.jpg);
+        background: no-repeat center center / cover url(../img/delice.jpg);
     }
     /*  section  */      /*  section  */      /*  section  */      /*  section  */
     section {
